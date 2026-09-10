@@ -9,6 +9,9 @@ permissions:
 jobs:
   deploy:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: docs
     steps:
       - uses: actions/checkout@v4
       - name: Configure Git Credentials
@@ -30,4 +33,4 @@ jobs:
       - name: Install Python dependencies
         run: python -m pip install mkdocs-material mkdoxy
       - name: Deploy documentation
-        run: mkdocs gh-deploy --force --config-file example/mkdocs.yml
+        run: mkdocs gh-deploy --force
