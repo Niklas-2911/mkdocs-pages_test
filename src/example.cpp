@@ -2,7 +2,7 @@
 
 /**
  * @brief Test function to print hello world
- *
+ * @return hello world
  */
 void hello_world()
 {
