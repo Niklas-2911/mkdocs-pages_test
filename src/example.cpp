@@ -1,0 +1,15 @@
+#include <iostream>
+
+/**
+ * @brief Test function to print hello world
+ *
+ */
+void hello_world()
+{
+    std::cout << "hello" << std::endl;
+}
+int main()
+{
+    hello_world();
+    return 0;
+}

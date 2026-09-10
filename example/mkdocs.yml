@@ -1,0 +1,24 @@
+site_name: My Docs
+
+exclude_docs: |
+  generated-api/
+
+theme:
+  name: material
+
+plugins:
+  - search
+  - mkdoxy:
+      save-api: example/docs/generated-api
+      projects:
+        myProjectCpp: # name of project must be alphanumeric + numbers (without spaces)
+          src-dirs: /Users/niklas/Desktop/mkdocs-pages_test/src # path to source code (support multiple paths separated by space) => INPUT
+          full-doc: True # if you want to generate full documentation
+          doxy-cfg: # standard doxygen configuration (key: value)
+            FILE_PATTERNS: "*.cpp *.h*" # specify file patterns to filter out
+            RECURSIVE: True # recursive search in source directories
+
+nav:
+  - Home: index.md
+  - src: myProjectCpp/files.md
+  - Functions: myProjectCpp/example_8cpp.md
