@@ -7,5 +7,5 @@
 
 ## Libraries
 
-- [Dynamic Packet Codec](packet/class_packet.md)
-- [Radiocrafts RC17xxHP-RC232](radiocrafts/class_r_c17xx_h_p___r_c232.md)
+- [Dynamic Packet Codec](packet/annotated.md)
+- [Radiocrafts RC17xxHP-RC232](radiocrafts/annotated.md)

@@ -108,10 +108,10 @@ nav:
           - Files: groundstation/files.md
   - Libraries:
       - Packet:
-          - Class reference: packet/class_packet.md
+          - Class reference: packet/annotated.md
           - Files: packet/files.md
       - Radiocrafts RC17xxHP-RC232:
-          - Class reference: radiocrafts/class_r_c17xx_h_p___r_c232.md
+          - Class reference: radiocrafts/annotated.md
           - Files: radiocrafts/files.md
 
 markdown_extensions:

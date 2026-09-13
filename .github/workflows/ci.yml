@@ -40,7 +40,7 @@ jobs:
         run: python -m pip install -r requirements-docs.txt
 
       - name: Verify documentation
-        run: mkdocs build --clean
+        run: mkdocs build --clean --strict
 
       - name: Deploy documentation
-        run: mkdocs gh-deploy  --force --remote-branch gh-pages
+        run: mkdocs gh-deploy --strict --force --remote-branch gh-pages
