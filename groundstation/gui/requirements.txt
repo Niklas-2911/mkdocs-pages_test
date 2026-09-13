@@ -1,0 +1,5 @@
+pyserial
+dearpygui
+requests
+Pillow
+tzdata
