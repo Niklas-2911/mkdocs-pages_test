@@ -96,7 +96,6 @@ plugins:
 
 nav:
   - Home: index.md
-  - API overview: api_overview.md
   - Firmware:
       - Onboard:
           - Functions: onboard/group__onboard.md
